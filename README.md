@@ -1,0 +1,2 @@
+# cppPicoTemplate
+CPP template project 
