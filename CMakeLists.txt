@@ -16,4 +16,8 @@ target_link_libraries(picoCPP
                       hardware_i2c
                       hardware_spi
                       hardware_adc
-                      hardware_uart)
+                      hardware_uart
+                      )
+
+pico_enable_stdio_usb(${PROJECT_NAME} 0)
+pico_enable_stdio_uart(${PROJECT_NAME} 1)
